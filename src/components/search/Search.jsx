@@ -28,9 +28,9 @@ function Search({onSearchChange}) {
         <AsyncPaginate
             placeholder="Search for city"
             debounceTimeout={600}
-            value={search}
-            onChange={handleOnChange}
             loadOptions={loadOptions}
+            onChange={handleOnChange}
+            value={search}
         />
     );
 }
