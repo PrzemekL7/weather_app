@@ -1,11 +1,22 @@
-.weather {
+.weather-night {
     width: 300px;
     border-radius: 6px;
     box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
-    color: #d5d4d4;
+    color: whitesmoke;
     background-color: darkslateblue;
     margin: 20px auto 0 auto;
     padding: 0 20px 20px 20px;
+}
+
+.weather-day {
+    width: 300px;
+    border-radius: 6px;
+    box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
+    color: whitesmoke;
+    background-color: dodgerblue;
+    margin: 20px auto 0 auto;
+    padding: 0 20px 20px 20px;
+
 }
 
 .top, .bottom {
