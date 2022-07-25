@@ -17,7 +17,7 @@ function Forecast({data}) {
 
     return (
         <>
-            <label className="title">Daily</label>
+            <label className="title">Next 7 days:</label>
             <Accordion allowZeroExpanded>
                 {data.list.slice(0, 7).map((item, idx) => (
                     <AccordionItem key={idx}>
