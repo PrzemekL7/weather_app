@@ -1,4 +1,6 @@
 import './App.css';
+import Favicon from "react-favicon";
+import favicon from "./favicon_icons/favicon.ico"
 import Search from "./components/search/Search";
 import CurrentWeather from "./components/currentWeather/CurrentWeather";
 import {WEATHER_API_KEY, WEATHER_API_URL} from "./constants/constants";
@@ -32,6 +34,7 @@ function App() {
     console.log(forecast)
     return (
         <div className="container">
+            <Favicon url={favicon}></Favicon>
             <Search onSearchChange={handleOnSearchChange}/>
             {currentWeather && <CurrentWeather data={currentWeather}/>}
             {forecast && <Forecast data={forecast}/>}

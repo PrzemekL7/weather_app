@@ -1,5 +1,4 @@
 import "./currentWeather.css"
-// import sunny from "../../icons/01d.png"
 import React from 'react';
 
 function CurrentWeather({data}) {
